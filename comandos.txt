@@ -1,0 +1,29 @@
+git init
+git remote add origin https://github.com/amilcarHernandez24/20230605-AmilcarHernandez.git
+touch comandos.txt main.js index.html
+git status
+git add .
+git status
+git commit -m "commit 01 de AmilcarHernandez"
+git push origin master
+git checkout -b feature
+mkdir Hardware Software SeguridadInformatica
+cd Hardware/
+touch resumen.txt
+cd ..
+cd SeguridadInformatica/
+touch resumen.txt
+cd ..
+cd Software/
+touch resumen.txt
+git status
+cd ..
+git status
+git add .
+git status
+git commit -m "commit 02 de AmilcarHernandez"
+git push origin feature
+git checkout master
+mv main.js resumenHardware.txt
+mv index.html resumenSoftware.txt
+
